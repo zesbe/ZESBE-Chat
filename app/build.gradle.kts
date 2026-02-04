@@ -21,8 +21,8 @@ android {
             useSupportLibrary = true
         }
 
-        // Read API key from local.properties
-        val glmApiKey = project.findProperty("glm.api.key") ?: ""
+        // Read API key from local.properties or use placeholder
+        val glmApiKey = project.findProperty("glm.api.key") ?: "YOUR_API_KEY_HERE"
         buildConfigField("String", "GLM_API_KEY", "\"$glmApiKey\"")
     }
 
