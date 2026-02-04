@@ -1,0 +1,6 @@
+# ZESBE Chat - Local Properties Template
+# Copy this file to local.properties and add your API key
+
+# ZhipuAI GLM API Key
+# Get your key from: https://open.bigmodel.cn/
+glm.api.key=your_api_key_here

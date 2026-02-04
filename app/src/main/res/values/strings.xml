@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">ZESBE Chat</string>
+    <string name="app_tagline">Build Different.</string>
+
+    <!-- Chat Screen -->
+    <string name="chat_title">Chat</string>
+    <string name="chat_hint">Type a message…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_typing">GLM is typing…</string>
+    <string name="chat_error">Error: %s</string>
+    <string name="chat_empty">No messages yet. Start a conversation!</string>
+
+    <!-- Chat List -->
+    <string name="chat_list_title">Conversations</string>
+    <string name="chat_list_new">New Chat</string>
+    <string name="chat_list_delete">Delete</string>
+    <string name="chat_list_empty">No conversations yet</string>
+    <string name="chat_list_search">Search conversations…</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_hint">Enter your GLM API key</string>
+    <string name="settings_model">Model</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_clear_history">Clear Chat History</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %s</string>
+    <string name="settings_export">Export All Chats</string>
+
+    <!-- Models -->
+    <string name="model_glm4">GLM-4 (Recommended)</string>
+    <string name="model_glm3_turbo">GLM-3 Turbo</string>
+    <string name="model_glm3">GLM-3</string>
+
+    <!-- Themes -->
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Messages -->
+    <string name="message_delete_confirm">Delete this conversation?</string>
+    <string name="message_delete_all_confirm">Delete all conversations?</string>
+    <string name="message_cleared">Chat history cleared</string>
+    <string name="message_exported">Exported to Downloads</string>
+    <string name="message_export_error">Export failed: %s</string>
+
+    <!-- Errors -->
+    <string name="error_api_key_missing">API key is required</string>
+    <string name="error_api_key_invalid">Invalid API key</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_unknown">An unknown error occurred</string>
+
+    <!-- Success -->
+    <string name="success_api_key_saved">API key saved</string>
+    <string name="success_settings_saved">Settings saved</string>
+
+    <!-- About -->
+    <string name="about_description">
+        ZESBE Chat is a modern AI chat app powered by GLM (ZhipuAI).
+        \n\nBuild Different. ⚡
+    </string>
+    <string name="about_website">Website</string>
+    <string name="about_github">GitHub</string>
+    <string name="about_privacy">Privacy Policy</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_send_message">Send message</string>
+    <string name="cd_new_chat">New chat</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_more">More options</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_export">Export</string>
+</resources>

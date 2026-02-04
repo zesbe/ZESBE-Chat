@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <style name="Theme.ZesbeChat" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/zesbe_charcoal</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.ZesbeChat.Dark" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/zesbe_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

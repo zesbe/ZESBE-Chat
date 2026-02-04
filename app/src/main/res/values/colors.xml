@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ZESBE Brand Colors -->
+    <color name="zesbe_black">#0A0A0A</color>
+    <color name="zesbe_charcoal">#1A1A1A</color>
+    <color name="zesbe_dark_gray">#2D2D2D</color>
+    <color name="zesbe_gray">#888888</color>
+
+    <!-- Accent Colors -->
+    <color name="zesbe_electric">#00F0FF</color>
+    <color name="zesbe_neon_pink">#FF00E6</color>
+    <color name="zesbe_lime">#B4FF00</color>
+
+    <!-- Material 3 Colors -->
+    <color name="md_theme_light_primary">#006C8C</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#CDE6FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001E2B</color>
+
+    <color name="md_theme_dark_primary">#8CD4FF</color>
+    <color name="md_theme_dark_onPrimary">#003547</color>
+    <color name="md_theme_dark_primaryContainer">#004D65</color>
+    <color name="md_theme_dark_onPrimaryContainer">#CDE6FF</color>
+
+    <!-- User Message -->
+    <color name="message_user_background">#00F0FF</color>
+    <color name="message_user_text">#000000</color>
+
+    <!-- AI Message -->
+    <color name="message_ai_background">#2D2D2D</color>
+    <color name="message_ai_text">#FFFFFF</color>
+
+    <!-- Common -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
