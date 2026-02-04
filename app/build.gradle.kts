@@ -26,6 +26,18 @@ android {
         buildConfigField("String", "GLM_API_KEY", "\"$glmApiKey\"")
     }
 
+    // Signing configuration
+    signingConfigs {
+        create("release") {
+            // Read from keystore.properties or environment variables
+            val keystoreFile = System.getenv("KEYSTORE_FILE") ?: "keystore.jks"
+            storeFile = file(keystoreFile)
+            storePassword = System.getenv("KEYSTORE_PASSWORD") ?: ""
+            keyAlias = System.getenv("KEY_ALIAS") ?: ""
+            keyPassword = System.getenv("KEY_PASSWORD") ?: ""
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = true
@@ -33,6 +45,11 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            // Sign with keystore if available
+            signingConfig = signingConfigs.getByName("release")
+        }
+        debug {
+            // Debug build with default debug signing
         }
     }
 
